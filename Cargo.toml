@@ -1,10 +1,8 @@
 [package]
-name = "SigmaOS-abiword"
+name = "sigmaos_abiword"
 version = "0.1.0"
 edition = "2021"
-license = "Apache-2.0"
-description = "SigmaOS component - part of multi-repository architecture"
 
 [lib]
-name = "abiword"
+name = "sigmaos_abiword"
 path = "src/lib.rs"
