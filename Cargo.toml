@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos_abiword"
+name = "SigmaOS-abiword"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_abiword component"
 
 [lib]
 name = "sigmaos_abiword"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
